@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    border: 1px solid black;
+}
+.header img{
+    padding: 5px;
+    border-right: 1px solid black ;
+}
+.header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.login{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-input{
+    display: flex;
+}
+
+.title-input div{
+    margin: 10px;
+}
+.title-input .text-input{
+    width: 100px;
+}
+.login button{
+    margin-left: 300px;
+    padding: 5px 20px;
+    background-color: rgb(117, 181, 255);
+}
